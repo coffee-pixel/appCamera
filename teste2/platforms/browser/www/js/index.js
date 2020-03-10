@@ -21,13 +21,6 @@ var app = {
             return;
         }
 
-        var options =   {   quality: 50,
-                            destinationType: Camera.DestinationType.FILE_URI,
-                            encodingType: Camera.EncodingType.JPEG,
-                            mediaType: Camera.MediaType.PICTURE,
-                            sourceType: 1,      
-                        };
-
         let options2 = {
             quality: 50,
             destinationType: Camera.DestinationType.DATA_URL,
